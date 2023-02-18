@@ -114,7 +114,7 @@
 .wrapper .header .header-top .container .burger-line {
   position: absolute;
   top: 8px;
-  right: clamp(35px, 3cqi, 71px);
+  right: clamp(35px, 3cqw, 71px);
   width: clamp(35px, 3cqw, 42px);
   height: clamp(1px, 0.5cqw, 4px);
   border-radius: 7px;
@@ -291,7 +291,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 6.5cqi;
-  line-height: 120%;
   /* or 134px */
   letter-spacing: 0.015em;
   text-transform: uppercase;
@@ -435,8 +434,14 @@
 }
 
 @media (max-width: 455px) {
+  .wrapper .header-top .logo img {
+    width: 150px;
+  }
   .wrapper .header-top ul {
     display: none;
+  }
+  .wrapper button {
+    padding: 5px 10px;
   }
 }
 
