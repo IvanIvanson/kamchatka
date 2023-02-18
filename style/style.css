@@ -491,8 +491,8 @@
     display: block;
     position: absolute;
     top: 0;
-    right: clamp(20px, 2cqw, 70px);
-    width: clamp(60px, 3cqw, 90px);
+    right: 50px;
+    width: 90px;
     height: 100%;
     cursor: pointer;
     line-height: 40px;
@@ -672,7 +672,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 2.5cqi;
-    line-height: 180%;
     /* identical to box height, or 42px */
     letter-spacing: 0.015em;
     text-transform: uppercase;
