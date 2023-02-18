@@ -426,6 +426,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   background: var(--orange);
+  border: solid black 0.5px;
   color: #000000;
   float: right;
   margin-top: 20px;
