@@ -433,7 +433,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 455px) {
+@media (max-width: 755px) {
   .wrapper .header-top .logo img {
     width: 150px;
   }
