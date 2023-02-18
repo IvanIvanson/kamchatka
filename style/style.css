@@ -76,12 +76,12 @@
   font-family: 'Gadugi', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(10px, 1cqi, 20px);
+  font-size: clamp(10px, 1cqw, 20px);
   line-height: 160%;
   /* identical to box height, or 26px */
   letter-spacing: 0.03em;
   color: #FFFFFF;
-  padding-left: clamp(10px, 3cqi, 75px);
+  padding-left: clamp(10px, 3cqw, 75px);
   cursor: pointer;
 }
 
